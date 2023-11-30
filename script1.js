@@ -62,7 +62,7 @@ async function  obtenerDeportes(){
 
 async function obtenerEquipos(){
     console.log("entor en datos")
-    const url="https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?s=VolleyBall&c=Portugal";
+    const url="https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?s=Soccer&c=Spain";
     var headers = {}
    
     const response= await fetch(url, {
